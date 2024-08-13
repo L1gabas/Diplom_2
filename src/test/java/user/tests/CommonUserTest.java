@@ -1,9 +1,9 @@
-package UserTests;
+package user.tests;
 
 import models.UserModel;
 import org.junit.After;
 import org.junit.Before;
-import staps.UserSteps;
+import steps.UserSteps;
 
 public class CommonUserTest {
 

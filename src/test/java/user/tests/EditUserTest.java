@@ -1,4 +1,4 @@
-package UserTests;
+package user.tests;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;

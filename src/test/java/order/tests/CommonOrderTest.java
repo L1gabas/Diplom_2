@@ -1,12 +1,12 @@
-package OrderTests;
+package order.tests;
 
 import models.OrderModel;
 import models.UserModel;
 import org.junit.After;
 import org.junit.Before;
-import staps.IngredientStep;
-import staps.OrderSteps;
-import staps.UserSteps;
+import steps.IngredientStep;
+import steps.OrderSteps;
+import steps.UserSteps;
 
 public class CommonOrderTest {
 
