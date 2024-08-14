@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: OrderTests.CreateOrderTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 9.884 s <<< FAILURE! - in OrderTests.CreateOrderTest
+createOrderWithIngredientWithoutNotAuthUser(OrderTests.CreateOrderTest)  Time elapsed: 0.437 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <200>.
+
+	at OrderTests.CreateOrderTest.createOrderWithIngredientWithoutNotAuthUser(CreateOrderTest.java:37)
+
+createOrderWithIngredientNotAuthUser(OrderTests.CreateOrderTest)  Time elapsed: 0.249 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <400>.
+
+	at OrderTests.CreateOrderTest.createOrderWithIngredientNotAuthUser(CreateOrderTest.java:69)
+
+createOrderWithInvalidHashIngredientNotAuthUser(OrderTests.CreateOrderTest)  Time elapsed: 0.206 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <500>.
+
+	at OrderTests.CreateOrderTest.createOrderWithInvalidHashIngredientNotAuthUser(CreateOrderTest.java:98)
+

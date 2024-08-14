@@ -1,0 +1,13 @@
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+/target/classes/
+/target/generated-sources/
+/target/generated-test-sources/
+/target/maven-status/
+/target/test-classes/
